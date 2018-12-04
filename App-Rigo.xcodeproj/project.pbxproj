@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		186101F021B6242A0089310C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186101EF21B6242A0089310C /* AppDelegate.swift */; };
+		186101F221B6242A0089310C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186101F121B6242A0089310C /* ViewController.swift */; };
+		186101F521B6242A0089310C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186101F321B6242A0089310C /* Main.storyboard */; };
+		186101F721B6242A0089310C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186101F621B6242A0089310C /* Assets.xcassets */; };
+		186101FA21B6242A0089310C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186101F821B6242A0089310C /* LaunchScreen.storyboard */; };
+		1861020521B6242A0089310C /* App_RigoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861020421B6242A0089310C /* App_RigoTests.swift */; };
+		1861021021B6242A0089310C /* App_RigoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861020F21B6242A0089310C /* App_RigoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1861020121B6242A0089310C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186101E421B6242A0089310C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186101EB21B6242A0089310C;
+			remoteInfo = "App-Rigo";
+		};
+		1861020C21B6242A0089310C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 186101E421B6242A0089310C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 186101EB21B6242A0089310C;
+			remoteInfo = "App-Rigo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186101EC21B6242A0089310C /* App-Rigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Rigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		186101EF21B6242A0089310C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		186101F121B6242A0089310C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		186101F421B6242A0089310C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		186101F621B6242A0089310C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		186101F921B6242A0089310C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		186101FB21B6242A0089310C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861020021B6242A0089310C /* App-RigoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-RigoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1861020421B6242A0089310C /* App_RigoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_RigoTests.swift; sourceTree = "<group>"; };
+		1861020621B6242A0089310C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1861020B21B6242A0089310C /* App-RigoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App-RigoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1861020F21B6242A0089310C /* App_RigoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_RigoUITests.swift; sourceTree = "<group>"; };
+		1861021121B6242A0089310C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		186101E921B6242A0089310C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186101FD21B6242A0089310C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861020821B6242A0089310C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		186101E321B6242A0089310C = {
+			isa = PBXGroup;
+			children = (
+				186101EE21B6242A0089310C /* App-Rigo */,
+				1861020321B6242A0089310C /* App-RigoTests */,
+				1861020E21B6242A0089310C /* App-RigoUITests */,
+				186101ED21B6242A0089310C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		186101ED21B6242A0089310C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				186101EC21B6242A0089310C /* App-Rigo.app */,
+				1861020021B6242A0089310C /* App-RigoTests.xctest */,
+				1861020B21B6242A0089310C /* App-RigoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		186101EE21B6242A0089310C /* App-Rigo */ = {
+			isa = PBXGroup;
+			children = (
+				186101EF21B6242A0089310C /* AppDelegate.swift */,
+				186101F121B6242A0089310C /* ViewController.swift */,
+				186101F321B6242A0089310C /* Main.storyboard */,
+				186101F621B6242A0089310C /* Assets.xcassets */,
+				186101F821B6242A0089310C /* LaunchScreen.storyboard */,
+				186101FB21B6242A0089310C /* Info.plist */,
+			);
+			path = "App-Rigo";
+			sourceTree = "<group>";
+		};
+		1861020321B6242A0089310C /* App-RigoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1861020421B6242A0089310C /* App_RigoTests.swift */,
+				1861020621B6242A0089310C /* Info.plist */,
+			);
+			path = "App-RigoTests";
+			sourceTree = "<group>";
+		};
+		1861020E21B6242A0089310C /* App-RigoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1861020F21B6242A0089310C /* App_RigoUITests.swift */,
+				1861021121B6242A0089310C /* Info.plist */,
+			);
+			path = "App-RigoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		186101EB21B6242A0089310C /* App-Rigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1861021421B6242A0089310C /* Build configuration list for PBXNativeTarget "App-Rigo" */;
+			buildPhases = (
+				186101E821B6242A0089310C /* Sources */,
+				186101E921B6242A0089310C /* Frameworks */,
+				186101EA21B6242A0089310C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App-Rigo";
+			productName = "App-Rigo";
+			productReference = 186101EC21B6242A0089310C /* App-Rigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		186101FF21B6242A0089310C /* App-RigoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1861021721B6242A0089310C /* Build configuration list for PBXNativeTarget "App-RigoTests" */;
+			buildPhases = (
+				186101FC21B6242A0089310C /* Sources */,
+				186101FD21B6242A0089310C /* Frameworks */,
+				186101FE21B6242A0089310C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1861020221B6242A0089310C /* PBXTargetDependency */,
+			);
+			name = "App-RigoTests";
+			productName = "App-RigoTests";
+			productReference = 1861020021B6242A0089310C /* App-RigoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1861020A21B6242A0089310C /* App-RigoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1861021A21B6242A0089310C /* Build configuration list for PBXNativeTarget "App-RigoUITests" */;
+			buildPhases = (
+				1861020721B6242A0089310C /* Sources */,
+				1861020821B6242A0089310C /* Frameworks */,
+				1861020921B6242A0089310C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1861020D21B6242A0089310C /* PBXTargetDependency */,
+			);
+			name = "App-RigoUITests";
+			productName = "App-RigoUITests";
+			productReference = 1861020B21B6242A0089310C /* App-RigoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		186101E421B6242A0089310C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = haiphat;
+				TargetAttributes = {
+					186101EB21B6242A0089310C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					186101FF21B6242A0089310C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186101EB21B6242A0089310C;
+					};
+					1861020A21B6242A0089310C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 186101EB21B6242A0089310C;
+					};
+				};
+			};
+			buildConfigurationList = 186101E721B6242A0089310C /* Build configuration list for PBXProject "App-Rigo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 186101E321B6242A0089310C;
+			productRefGroup = 186101ED21B6242A0089310C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				186101EB21B6242A0089310C /* App-Rigo */,
+				186101FF21B6242A0089310C /* App-RigoTests */,
+				1861020A21B6242A0089310C /* App-RigoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		186101EA21B6242A0089310C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186101FA21B6242A0089310C /* LaunchScreen.storyboard in Resources */,
+				186101F721B6242A0089310C /* Assets.xcassets in Resources */,
+				186101F521B6242A0089310C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186101FE21B6242A0089310C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861020921B6242A0089310C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		186101E821B6242A0089310C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186101F221B6242A0089310C /* ViewController.swift in Sources */,
+				186101F021B6242A0089310C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		186101FC21B6242A0089310C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861020521B6242A0089310C /* App_RigoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1861020721B6242A0089310C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1861021021B6242A0089310C /* App_RigoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1861020221B6242A0089310C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186101EB21B6242A0089310C /* App-Rigo */;
+			targetProxy = 1861020121B6242A0089310C /* PBXContainerItemProxy */;
+		};
+		1861020D21B6242A0089310C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 186101EB21B6242A0089310C /* App-Rigo */;
+			targetProxy = 1861020C21B6242A0089310C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		186101F321B6242A0089310C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186101F421B6242A0089310C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		186101F821B6242A0089310C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				186101F921B6242A0089310C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1861021221B6242A0089310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1861021321B6242A0089310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1861021521B6242A0089310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-Rigo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-Rigo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1861021621B6242A0089310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-Rigo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-Rigo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1861021821B6242A0089310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-RigoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-RigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-Rigo.app/App-Rigo";
+			};
+			name = Debug;
+		};
+		1861021921B6242A0089310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-RigoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-RigoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/App-Rigo.app/App-Rigo";
+			};
+			name = Release;
+		};
+		1861021B21B6242A0089310C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-RigoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-RigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App-Rigo";
+			};
+			name = Debug;
+		};
+		1861021C21B6242A0089310C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App-RigoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "haiphat.App-RigoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "App-Rigo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		186101E721B6242A0089310C /* Build configuration list for PBXProject "App-Rigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861021221B6242A0089310C /* Debug */,
+				1861021321B6242A0089310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1861021421B6242A0089310C /* Build configuration list for PBXNativeTarget "App-Rigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861021521B6242A0089310C /* Debug */,
+				1861021621B6242A0089310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1861021721B6242A0089310C /* Build configuration list for PBXNativeTarget "App-RigoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861021821B6242A0089310C /* Debug */,
+				1861021921B6242A0089310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1861021A21B6242A0089310C /* Build configuration list for PBXNativeTarget "App-RigoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1861021B21B6242A0089310C /* Debug */,
+				1861021C21B6242A0089310C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 186101E421B6242A0089310C /* Project object */;
+}
