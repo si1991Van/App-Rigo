@@ -41,6 +41,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+}
 
+extension AppDelegate{
+    
+    func goToHome(){
+        if let vc = UIStoryboard.initViewController(storyboard: "Main", viewController: "RootTabBarController") {
+            guard let snapshot = self.window?.snapshotView(afterScreenUpdates: true) else {
+                self.window?.rootViewController = vc
+                return
+            }
+            vc.view.addSubview(snapshot)
+            self.window?.rootViewController = vc
+            snapshot.removeFromSuperview()
+        }
+    }
 }
 
