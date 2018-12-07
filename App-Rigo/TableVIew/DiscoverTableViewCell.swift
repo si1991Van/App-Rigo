@@ -9,7 +9,8 @@
 import UIKit
 
 class DiscoverTableViewCell: UITableViewCell {
-    @IBOutlet weak var imgCovert: UIImageView!
+   
+    @IBOutlet weak var imgCover: UIImageView!
     
     @IBOutlet weak var labName: UILabel!
     @IBOutlet weak var labDescription: UILabel!
