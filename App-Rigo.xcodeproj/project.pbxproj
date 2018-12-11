@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		181C55A621BA7BDC002C3A06 /* UIBorderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C55A521BA7BDC002C3A06 /* UIBorderUIView.swift */; };
 		181C55A821BA7CAA002C3A06 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181C55A721BA7CAA002C3A06 /* UIView.swift */; };
+		182DF57321BE1B9B00DFF21C /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DF57221BE1B9B00DFF21C /* BookCollectionViewCell.swift */; };
 		186101F021B6242A0089310C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186101EF21B6242A0089310C /* AppDelegate.swift */; };
 		186101F221B6242A0089310C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186101F121B6242A0089310C /* ViewController.swift */; };
 		186101F521B6242A0089310C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186101F321B6242A0089310C /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 		1861023621B6707A0089310C /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861023521B6707A0089310C /* AppStoryboard.swift */; };
 		1861023821B675760089310C /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1861023721B675760089310C /* UIStoryboard.swift */; };
 		189DCA1721B76CDB006D3790 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189DCA1621B76CDB006D3790 /* UIColor.swift */; };
+		18A0348E21BF63060013376F /* BooksCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0348D21BF63060013376F /* BooksCollection.swift */; };
+		18A0349021BF65680013376F /* BooksTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0348F21BF65680013376F /* BooksTable.swift */; };
 		18CA12DF21B8C13B006AB0FB /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA12DE21B8C13B006AB0FB /* ProfileViewModel.swift */; };
 		18CA12E121B8C5AA006AB0FB /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA12E021B8C5AA006AB0FB /* ProfileModel.swift */; };
 		18CA12E321B8C693006AB0FB /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA12E221B8C693006AB0FB /* ProfileTableViewCell.swift */; };
@@ -61,6 +64,7 @@
 		06D5726D6060BB8855890139 /* Pods-App-RigoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-RigoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-App-RigoUITests/Pods-App-RigoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		181C55A521BA7BDC002C3A06 /* UIBorderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBorderUIView.swift; sourceTree = "<group>"; };
 		181C55A721BA7CAA002C3A06 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		182DF57221BE1B9B00DFF21C /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
 		186101EC21B6242A0089310C /* App-Rigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Rigo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186101EF21B6242A0089310C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186101F121B6242A0089310C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 		1861023521B6707A0089310C /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		1861023721B675760089310C /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 		189DCA1621B76CDB006D3790 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		18A0348D21BF63060013376F /* BooksCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCollection.swift; sourceTree = "<group>"; };
+		18A0348F21BF65680013376F /* BooksTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTable.swift; sourceTree = "<group>"; };
 		18CA12DE21B8C13B006AB0FB /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		18CA12E021B8C5AA006AB0FB /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		18CA12E221B8C693006AB0FB /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
@@ -231,6 +237,7 @@
 				18CA12E221B8C693006AB0FB /* ProfileTableViewCell.swift */,
 				18CA12E421B8D147006AB0FB /* DiscoverTableViewCell.swift */,
 				18CA12E621B8D155006AB0FB /* BookTableViewCell.swift */,
+				182DF57221BE1B9B00DFF21C /* BookCollectionViewCell.swift */,
 			);
 			path = TableVIew;
 			sourceTree = "<group>";
@@ -261,6 +268,7 @@
 		1861022D21B66D0E0089310C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				18A0348C21BF62DA0013376F /* Book */,
 				1861022E21B66D310089310C /* DiscoverViewController.swift */,
 				1861023021B66D4C0089310C /* BookViewController.swift */,
 				1861023221B66D5A0089310C /* ProfileViewController.swift */,
@@ -275,6 +283,15 @@
 				186101F821B6242A0089310C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		18A0348C21BF62DA0013376F /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				18A0348D21BF63060013376F /* BooksCollection.swift */,
+				18A0348F21BF65680013376F /* BooksTable.swift */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 		A63E848FA749F41AD113CBD2 /* Frameworks */ = {
@@ -522,14 +539,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				181C55A621BA7BDC002C3A06 /* UIBorderUIView.swift in Sources */,
+				18A0349021BF65680013376F /* BooksTable.swift in Sources */,
 				1861023821B675760089310C /* UIStoryboard.swift in Sources */,
 				18CA12E121B8C5AA006AB0FB /* ProfileModel.swift in Sources */,
+				18A0348E21BF63060013376F /* BooksCollection.swift in Sources */,
 				1861023621B6707A0089310C /* AppStoryboard.swift in Sources */,
 				18CA12E921B91822006AB0FB /* DiscoverViewModel.swift in Sources */,
 				18CA12E321B8C693006AB0FB /* ProfileTableViewCell.swift in Sources */,
 				18CA12EB21B91849006AB0FB /* DiscoverModel.swift in Sources */,
 				181C55A821BA7CAA002C3A06 /* UIView.swift in Sources */,
 				1861022321B637A60089310C /* LoginViewController.swift in Sources */,
+				182DF57321BE1B9B00DFF21C /* BookCollectionViewCell.swift in Sources */,
 				1861022721B63AE10089310C /* ForgotPasswordViewController.swift in Sources */,
 				1861022F21B66D310089310C /* DiscoverViewController.swift in Sources */,
 				186101F221B6242A0089310C /* ViewController.swift in Sources */,
